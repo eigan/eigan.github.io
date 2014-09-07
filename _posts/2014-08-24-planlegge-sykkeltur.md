@@ -28,6 +28,6 @@ icon: bicycle
 - Har du en eldre sykkel, vil en ny sykkel endre hvordan du ser på sykling
     - Man ruller langt bedre, og bruker mindre krefter
     - 5000,- er minimumbeløp for sykkel
-    - Cyclecross er flott sykkeltype, robust til å ha med seg ekstra bagasje
+    - Cyclocross er flott sykkeltype, robust til å ha med seg ekstra bagasje
     - Hybridsykkel er også flott sykkel som ruller like godt som en cyclocross!
 - Et enkelt og lett telt er flott når man skal på lengre turer

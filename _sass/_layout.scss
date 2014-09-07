@@ -1,0 +1,230 @@
+body {
+    font-family: "Roboto Slab", Georgia;
+    font-size: 62.5%;
+    background: #EDF2F3;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #bbb;
+    padding: 0;
+}
+
+.site-header .site-title {
+    font-size: 4em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #2B64B4;
+}
+
+.page {
+    max-width: 600px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+@media(max-width: 610px)  {
+    .page {
+        margin: 0 2%;
+    }
+}
+
+.site-header {
+    text-align: center;
+}
+
+.site-title {
+    margin-top: 30px;
+    display: block;
+    color: #000;
+    font-weight: bold;
+}
+
+.site-author {
+    color: rgba(0,0,0,0.3);
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.site-header hr {
+    margin-top: 10px;
+    width: 23%;
+}
+
+.site-header nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.site-header nav ul {
+}
+
+.site-header nav li {
+    font-size: 1.6em;
+    display: inline;
+    margin-right: 10px;
+    padding: 5px;
+
+}
+
+.site-header nav li a {
+    color: rgba(0,0,0,0.4);
+    border-radius: 2px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.site-header nav li a:hover {
+    color: rgba(0,0,0,0.6);
+}
+
+.post .fa {
+    float: left;
+    margin-right: 6px;
+    width: 27px;
+    text-align: center;
+}
+
+.post {
+    margin: 10px 0px;
+    background: rgba(255,255,255,0.5);
+    padding: 15px;
+
+}
+
+.posts .post:hover {
+    cursor: pointer;
+}
+
+
+.post .title {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.post .title {
+    color: #555;
+}
+
+a:visited .post .title {
+    color: #777;
+}
+
+.posts .post:hover .title {
+    color: #333;
+}
+
+.post h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+article {
+    color: rgba(0,0,0,0.8);
+    font-family: "Helvetica", "Helvetica Neue";
+}
+
+article h1,
+article h2, 
+article h3,
+article h4 {
+    margin-top: 1em;
+    margin-bottom: 0.4em;
+    font-family: "Roboto Slab", Georgia;
+}
+
+article h3 {
+    font-size: 2em;
+}
+
+article h4 {
+    font-size: 1.8em;
+}
+
+article p,
+article > ul,
+article table {
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+article li {
+    padding: 4px 0px;
+    font-size: 1.6em;
+    line-height: 1.2em;
+}
+
+article li li {
+    font-size: 0.65em;
+}
+
+article ul p {
+    font-size: 1em;
+}
+
+article > ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+article > ul ul {
+    font-size: 1.5em;
+    margin-left: 20px;
+    list-style: circle;
+}
+
+article table {
+    width: 100%;
+}
+
+article th {
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 4px;
+    padding-left: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+article td {
+    font-size: 1.5em;
+    padding: 4px;
+    padding-left: 0
+}
+
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.3em;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.3);
+}
+
+footer .links {
+    list-style: none;
+}
+
+footer .links li {
+    display: inline;
+    margin-left: 10px;
+}
+
+footer .fa {
+    margin-right: 5px;
+}

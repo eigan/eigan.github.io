@@ -1,0 +1,14 @@
+# Site settings
+title: Hverdagsloggen
+author: "Einar Gangsø"
+email: einargangso@gmail.com
+description: >
+  Herp derp
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.eigan.no" # the base hostname & protocol for your site
+github_username:  eigan
+
+permalink: /:year/:title
+
+# Build settings
+markdown: kramdown
